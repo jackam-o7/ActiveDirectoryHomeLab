@@ -28,22 +28,22 @@ To initiate my home lab environment, I began by downloading Windows Server 2019 
 
 After the installation of Windows Server 2019, I proceeded to configure and verify the network connections to ensure proper connectivity both internally and externally: <br/>  <br/>
 <b> 1) Access VirtualBox Network Settings: </b>  <br/>
-Opened VirtualBox and selected the Windows Server 2019 VM.  <br/>
-Navigated to Settings and then to the Network tab.  <br/>
+- Opened VirtualBox and selected the Windows Server 2019 VM.  <br/>
+- Navigated to Settings and then to the Network tab.  <br/>
 
 <b> 2) Configure Network Adapters: </b>  <br/>
-Adapter 1: Set to NAT (or Bridged Adapter), which provides the VM with internet access. <br/>
-Adapter 2: Configured as Host-Only Adapter or Internal Network for internal communication between VMs. <br/>
+- Adapter 1: Set to NAT (or Bridged Adapter), which provides the VM with internet access. <br/>
+- Adapter 2: Configured as Host-Only Adapter or Internal Network for internal communication between VMs. <br/>
 
 <b> 3) Verify Network Configuration in Windows Server 2019: </b> <br/>
-Started the VM and logged in to Windows Server 2019. <br/>
-Opened Control Panel and accessed Network and Sharing Center. <br/>
-Selected Change adapter settings to view and manage network adapters. <br/>
+- Started the VM and logged in to Windows Server 2019. <br/>
+- Opened Control Panel and accessed Network and Sharing Center. <br/>
+- Selected Change adapter settings to view and manage network adapters. <br/>
 
 <b> 4) Check IP Configuration: </b> <br/>
-Right-clicked on each network adapter and selected Properties. 
-Renamed them ‘Internet’ and ‘Internal’ respectively. 
-Configured the Internal connections IPv4 properties so it connects to the Internal network 
+- Right-clicked on each network adapter and selected Properties. 
+- Renamed them ‘Internet’ and ‘Internal’ respectively. 
+- Configured the Internal connections IPv4 properties so it connects to the Internal network 
 <br/>
 
 <img src="https://i.imgur.com/Dmuog8x.png" height="40%" width="40%" alt="IP Configuration"/> <br/>
